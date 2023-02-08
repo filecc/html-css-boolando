@@ -66,15 +66,15 @@ ul{
 }
 
 nav{
-    padding: 15px 0;
+    padding: 15px 1rem;
     width: 100%;
    
 }
 
-nav ul {
+nav ul{
     max-width: 30%;
 }
-nav li {
+nav li{
     padding: 0 5px;
     font-size: .8rem;
 }
@@ -171,7 +171,25 @@ main h2 {
     height: 100%;
     position: absolute;
     top: 0;
-    
+}
+/* /main */
+
+/* footer */
+footer{
+    background-color: var(--dark);
 }
 
-/* /main */
+footer div.container{
+    padding: 1rem 1rem;
+}
+
+footer li{
+    padding-right: .4rem;
+    font-size: .6rem;
+}
+
+footer p{
+    font-size: .8rem;
+    font-weight: bold;
+}
+/* /footer */

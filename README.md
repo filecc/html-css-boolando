@@ -11,7 +11,6 @@ This is a solution to the exercice of - Classe #92 - 08 Febbraio 2023.
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 
 
 ## Overview
@@ -21,7 +20,7 @@ This is a solution to the exercice of - Classe #92 - 08 Febbraio 2023.
 Students should be able to:
 
 - View the optimal layout for the website using CSS Flexbox and Position (Absolute and Relative)
-- Set up the hover state on the products card
+- Set up the hover state on the products card (change of the image and color on the heart icon)
 
 ### Screenshot
 Below is how the page should looks like
@@ -31,7 +30,7 @@ Below is how the page should looks like
 
 ### Links
 
-- Solution URL: [https://github.com/filecc/htmlcss-discord](https://github.com/filecc/htmlcss-discord)
+- Solution URL: [https://github.com/filecc/html-css-boolando](https://github.com/filecc/html-css-boolando)
 - Live Site URL: [https://filecc.github.io/htmlcss-discord/](https://filecc.github.io/htmlcss-discord/)
 
 ## My process
@@ -49,40 +48,38 @@ We were required to use Flexbox (with no media query and no other framework). I 
 
 ```html
 <!-- links -->
-<ul class="d-flex align-center">
-  <li>Scarica</li>
-  <li>Perché Discord</li>
-  <li>Nitro</li>
-  <li>Sicurezza</li>
-  <li>Assistenza</li>
-</ul>
+<div class="container d-flex align-center space-between">
+            <div>
+                <p>Booleando s.r.l</p>
+                <ul class="d-flex">
+                    <li>Informazioni legali</li>
+                    <li>Informativa sulla privacy</li>
+                    <li>Diritto di recesso</li>
+                </ul>
+            </div>
 <!-- /links -->
 ```
+
 ```css
 .d-flex{
     display: flex;
     flex-flow: row wrap;
 }
 
-.align-center{
-    align-items: center;
+.flow-column{
+    flex-flow: column wrap;
+}
+
+.justify-center{
+    justify-content: center;
 }
 ```
 
-### Useful resources
+I learned deeply how to use 
 
-- [Change SVG color in CSS ](https://codepen.io/sosuke/pen/Pjoqqp) - This helped me for the ability to change the color of the svg waves between sections. The Codepen use CSS properties to apply to SVG targeting the desidered color. 
-
-```html
-<!-- wave decoration -->
-     <div aria-label="hidden" id="wave"></div>
-<!-- /wave decoration -->
-```
 ```css
-#wave::after{
-    display: block;
-    font-size: 0;
-    content: url('../img/wave.svg');
-    filter: invert(100%) sepia(8%) saturate(1%) hue-rotate(169deg) brightness(115%) contrast(93%);
+div {
+    position: absolute;
 }
-```
+``` 
+and managed correctly and with no much difficulties to add icon and new images to the card products. 

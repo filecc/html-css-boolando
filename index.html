@@ -16,10 +16,8 @@
 <body>
     <!-- header -->
     <header>
-
-
         <!-- nav -->
-        <nav class="d-flex align-center space-between">
+        <nav class="container d-flex align-center space-between">
 
             <ul class="d-flex justify-center align-center">
                 <li>Donna</li>
@@ -27,18 +25,51 @@
                 <li>Bambini</li>
             </ul>
 
+            <!-- logo -->
             <img src="./img/boolean-logo.png" alt="boolando logo">
+            <!-- /logo -->
 
             <ul class="d-flex justify-center align-center">
                 <li><i class="fa-regular fa-user"></i></li>
                 <li><i class="fa-regular fa-heart"></i></li>
                 <li><i class="fa-solid fa-bag-shopping"></i></li>
             </ul>
-
         </nav>
         <!-- /nav -->
     </header>
     <!-- /header -->
+
+    <main class="container d-flex justify-center align-center p-1">
+        <!-- card container -->
+        <div class="cardContainer d-flex justify-center align-center flow-column">
+            <!-- first row -->
+            <div class="card d-flex flow-column">
+
+                <img src="./img/1.webp" alt="1">
+                <span>Levi's</span>
+                <h2>relaxed fit tee unisex</h2>
+                <div class="price d-flex">
+                    <span class="discountPrice">14,99 &euro; <span class="originalPrice">29,99 &euro;</span></span>
+                </div>
+
+                <div class="bannerContainer d-flex">
+                    <div class="banner discount">
+                        -50%
+                    </div>
+                    <div class="banner sustainability">
+                        Sostenibilità
+                    </div>
+                </div>
+
+                <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <!-- /first row -->
+
+        </div>
+        <!-- /card container -->
+    </main>
 </body>
 
 </html>

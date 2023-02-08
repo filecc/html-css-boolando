@@ -13,9 +13,20 @@
 
 }
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    height: 100vh;
+    min-height: 100vh;
+}
+
 .d-flex{
     display: flex;
     flex-flow: row wrap;
+}
+
+.flow-column{
+    flex-flow: column wrap;
 }
 
 .justify-center{
@@ -30,6 +41,26 @@
     justify-content: space-between;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.p-1{
+    padding: 1rem;
+}
+
+.m-1{
+    margin: 1rem;
+}
+
+/* header */
+
+header{
+    background-color: var(--primary);
+    width: 100%;
+}
+
 ul{
     list-style: none;
 }
@@ -42,22 +73,91 @@ nav li {
     font-size: .8rem;
 }
 
-body {
-    font-family: 'Noto Sans', sans-serif;
-    color: white;
-}
-
-header{
-    background-color: var(--primary);
-    width: 100%;
-}
-
 nav{
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 15px 0;
 }
 
 nav img{
     width: 100px;
 }
+
+/* /header */
+
+/* main */
+
+main {
+    min-height: 80%;
+    height: 80%;
+}
+
+.cardContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.card img{
+    width: 250px;
+    display: block;
+}
+
+.card{
+    position: relative;
+    width: 250px;
+    height: auto;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+main span{
+    color: grey;
+    font-size: .8rem;
+}
+
+main h2 {
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: black;
+}
+
+.discountPrice {
+    color: var(--discount);
+    font-weight: bold;
+}
+
+.originalPrice{
+    text-decoration: line-through;
+    color: black;
+}
+
+.bannerContainer{
+    position: absolute;
+    bottom: 80px;
+}
+
+.banner{
+    padding: .2rem .3rem;
+    margin: .1rem;
+    font-size: .6rem;
+    text-align: center;
+}
+
+.discount{
+    background-color: var(--discount);
+}
+.sustainability{
+    background-color: var(--green);
+    font-weight: bold;
+}
+
+.heart{
+    background-color: white;
+    color: black;
+    padding: .4rem;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: .5rem;
+}
+
+/* /main */

@@ -65,16 +65,18 @@ ul{
     list-style: none;
 }
 
+nav{
+    padding: 15px 0;
+    width: 100%;
+   
+}
+
 nav ul {
     max-width: 30%;
 }
 nav li {
     padding: 0 5px;
     font-size: .8rem;
-}
-
-nav{
-    padding: 15px 0;
 }
 
 nav img{
@@ -153,6 +155,10 @@ main h2 {
     position: absolute;
     right: 0;
     top: .5rem;
+}
+
+.card:hover .heart{
+    color: red;
 }
 
 /* /main */

@@ -161,4 +161,17 @@ main h2 {
     color: red;
 }
 
+.imgHover{
+    display: none;
+}
+
+.card:hover .imgHover{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    
+}
+
 /* /main */

@@ -57,7 +57,6 @@ body {
 /* header */
 
 header{
-    background-color: var(--primary);
     height: 50px;
     position: relative;
 }

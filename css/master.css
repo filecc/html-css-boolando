@@ -160,8 +160,9 @@ main h2 {
     top: .5rem;
 }
 
-.card:hover .heart{
+.heart:hover{
     color: red;
+    cursor: pointer;
 }
 
 .imgHover{

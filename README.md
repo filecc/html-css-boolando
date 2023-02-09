@@ -31,7 +31,7 @@ Below is how the page should looks like
 ### Links
 
 - Solution URL: [https://github.com/filecc/html-css-boolando](https://github.com/filecc/html-css-boolando)
-- Live Site URL: [https://filecc.github.io/htmlcss-discord/](https://filecc.github.io/htmlcss-discord/)
+- Live Site URL: [https://filecc.github.io/html-css-boolando/](https://filecc.github.io/html-css-boolando/)
 
 ## My process
 
